@@ -1,3 +1,4 @@
+import 'package:ecommerceapp/router.dart';
 import 'package:ecommerceapp/view/screen/Splash%20Screen/SplashScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      routes: routes,
+      home: const  SplashScreen(),
     );
   }
 }
