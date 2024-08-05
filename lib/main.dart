@@ -15,6 +15,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       routes: routes,
+      theme: ThemeData(
+        fontFamily: 'Montserrat',
+      ),
       home: const  SplashScreen(),
     );
   }
