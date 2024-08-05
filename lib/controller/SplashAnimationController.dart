@@ -23,7 +23,7 @@ class SplashAnimationController extends GetxController
 
     animationController.forward();
 
-    Timer(const Duration(milliseconds: 300), () {
+    Timer(const Duration(seconds: 10), () {
       Get.offNamed('/onboarding');
     });
   }

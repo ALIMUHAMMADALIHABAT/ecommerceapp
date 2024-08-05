@@ -1,3 +1,3 @@
 abstract class route{
- static const  String onboarding='onboarding';
+ static const  String onboarding='/onboarding';
 }

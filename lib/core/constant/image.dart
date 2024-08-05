@@ -3,7 +3,7 @@ class Assets {
   
   /// Assets for assetsImgLogoipsum255 1
   /// assets/img/logoipsum-255 1.svg
-  static const String assetsImgLogoipsum255 1 = "assets/img/logoipsum-255 1.svg";
+  static const String assetsImgLogoipsum2551 = "assets/img/logoipsum-255 1.svg";
 
   /// Assets for assetsImgOnb1
   /// assets/img/onb1.svg
